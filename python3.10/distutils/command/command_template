@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """distutils.command.x
 
 Implements the Distutils 'x' command.
@@ -31,3 +32,38 @@ class x(Command):
             self.x = 
 
     def run(self):
+=======
+"""distutils.command.x
+
+Implements the Distutils 'x' command.
+"""
+
+# created 2000/mm/dd, John Doe
+
+__revision__ = "$Id$"
+
+from distutils.core import Command
+
+
+class x(Command):
+
+    # Brief (40-50 characters) description of the command
+    description = ""
+
+    # List of option tuples: long name, short name (None if no short
+    # name), and help string.
+    user_options = [('', '',
+                     ""),
+                   ]
+
+    def initialize_options(self):
+        self. = None
+        self. = None
+        self. = None
+
+    def finalize_options(self):
+        if self.x is None:
+            self.x = 
+
+    def run(self):
+>>>>>>> 3da6a04faffe57a835e879b80f4c1557920b99c9

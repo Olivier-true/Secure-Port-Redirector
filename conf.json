@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "client": {
         "ListenPort": 443,
@@ -9,4 +10,17 @@
         "DestinationIP": "127.0.0.1",
         "DestinationPort": 445
     }
+=======
+{
+    "client": {
+        "ListenPort": 443,
+        "RemoteIP": "127.0.0.1",
+        "RemotePort": 50000
+    },
+    "server": {
+        "ListenPort": 50000,
+        "DestinationIP": "127.0.0.1",
+        "DestinationPort": 445
+    }
+>>>>>>> 3da6a04faffe57a835e879b80f4c1557920b99c9
 }

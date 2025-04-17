@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This directory contains the Distutils package.
 
 There's a full documentation available at:
@@ -9,3 +10,16 @@ The Distutils-SIG web page is also a good starting point:
     https://www.python.org/sigs/distutils-sig/
 
 $Id$
+=======
+This directory contains the Distutils package.
+
+There's a full documentation available at:
+
+    https://docs.python.org/distutils/
+
+The Distutils-SIG web page is also a good starting point:
+
+    https://www.python.org/sigs/distutils-sig/
+
+$Id$
+>>>>>>> 3da6a04faffe57a835e879b80f4c1557920b99c9
