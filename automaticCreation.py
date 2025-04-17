@@ -227,6 +227,7 @@ open("./server/Program.cs", "wb").write(SERVER_Program)
 
 dotnet = Dotnet()
 dotnet.publish("./client/client.csproj")
+<<<<<<< HEAD
 =======
 import os, uuid, http.client, json
 from hashlib import sha512, sha1
@@ -458,3 +459,6 @@ dotnet = Dotnet()
 dotnet.publish("./client/client.csproj")
 >>>>>>> 3da6a04faffe57a835e879b80f4c1557920b99c9
 dotnet.publish("./server/server.csproj")
+=======
+dotnet.publish("./server/server.csproj")
+>>>>>>> 9cbf219762f1c02b48dbbbca04c215bf6e28ba2e
